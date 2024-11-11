@@ -18,6 +18,8 @@ data:
   type: object
   properties:
     result:
-      enum: [success, failure]
+      maximum: 100
+      minimum: 0
       description: Test description
+      type: number
   additionalProperties: false

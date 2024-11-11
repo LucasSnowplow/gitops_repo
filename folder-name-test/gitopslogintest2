@@ -1,0 +1,23 @@
+# You might not need a custom data structure.
+# Please have a look at the available list of out of the box events and entities:
+# https://docs.snowplow.io/docs/collecting-data/collecting-from-own-applications/snowplow-tracker-protocol/
+apiVersion: v1
+resourceType: data-structure
+meta:
+  hidden: false
+  schemaType: event
+  customData: {}
+data:
+  description: Test login schema description
+  $schema: http://iglucentral.com/schemas/com.snowplowanalytics.self-desc/schema/jsonschema/1-0-0#
+  self:
+    vendor: com.example
+    name: gitopslogintest2
+    format: jsonschema
+    version: 1-0-0
+  type: object
+  properties:
+    result:
+      enum: [success, failure]
+      description: Test description
+  additionalProperties: false

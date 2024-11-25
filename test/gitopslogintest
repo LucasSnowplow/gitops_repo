@@ -26,4 +26,7 @@ data:
     result3:
       enum: [success, failure]
       description: Test description
+    result4:
+      enum: [success, failure]
+      description: Test description
   additionalProperties: false

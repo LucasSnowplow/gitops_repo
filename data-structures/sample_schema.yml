@@ -1,0 +1,16 @@
+apiVersion: v1
+resourceType: data-structure
+meta:
+  hidden: false
+  schemaType: event
+  customData: {}
+data:
+  $schema: http://iglucentral.com/schemas/com.snowplowanalytics.self-desc/schema/jsonschema/1-0-0#
+  self:
+    vendor: com.example
+    name: login_test_gitops
+    format: jsonschema
+    version: 1-0-0
+  type: object
+  properties: {}
+  additionalProperties: false
